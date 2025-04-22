@@ -15,6 +15,6 @@
     <RepositoryUrl>https://github.com/Functionairy/F10Y.T0002.git</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\F10Y.T0001\source\F10Y.T0001\F10Y.T0001.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.T0000\source\F10Y.T0000\F10Y.T0000.csproj" />
   </ItemGroup>
 </Project>
