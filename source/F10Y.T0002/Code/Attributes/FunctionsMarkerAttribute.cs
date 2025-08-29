@@ -10,6 +10,11 @@ namespace F10Y.T0002
     /// </summary>
     /// <remarks>
     /// The marker attribute is useful for surveying function interfaces and building a catalogue of functions.
+    /// <para>
+    /// Both this marker attribute and <see cref="FunctionSetMarkerAttribute"/> can be used to mark all methods in an interface as functions,
+    /// but the <see cref="FunctionMarkerAttribute"/> can be used to mark any method as a function instance.
+    /// (Using these whole-set marker attributes is preferable.)
+    /// </para>
     /// </remarks>
     [AttributeUsage(AttributeTargets.Interface, // Functions are always default implementation methods on an interface.
         AllowMultiple = false, // No.
